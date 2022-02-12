@@ -1,5 +1,4 @@
 import { Stream, ListCollector } from '../dist';
-import { ListCollectorFunc } from '../dist/functional';
 
 describe('Stream class', () => {
   it('should expect Stream.iterate() to create a list of 10 integers', () => {

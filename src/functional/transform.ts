@@ -1,5 +1,5 @@
-import { compose } from "./compose";
-import { ReducerFunc, UnaryFunction } from "./contracts";
+import { compose } from './compose';
+import { ReducerFunc, UnaryFunction } from './contracts';
 
 export const mapReduce = <T, R, ReducerRType>(
   mapFunc: UnaryFunction<T, R>,

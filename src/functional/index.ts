@@ -1,11 +1,11 @@
-export { compose, reverseCompose } from "./compose";
+export { compose, reverseCompose } from './compose';
 export {
   UnaryFunction,
   ReducerFunc,
   FilterFunc,
   CollectorFunc,
-  ListCollectorFunc,
   ComposeFunc,
-} from "./contracts";
+  Function_,
+} from './contracts';
 
-export { mapReduce } from "./transform";
+export { mapReduce } from './transform';

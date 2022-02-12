@@ -4,9 +4,8 @@ import {
   FilterFunc,
   ReducerFunc,
   UnaryFunction,
+  Function_,
 } from '../functional';
-
-type Function_ = (...params: any[]) => any;
 
 export interface StreamInterface<T> {
   map<R>(callback: UnaryFunction<T, R>): StreamInterface<T>;
